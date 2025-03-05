@@ -1,6 +1,7 @@
 # Bundler configuration and installed gems directory
 .bundle/
 vendor/bundle/
+pkg
 
 # OS Generated Files
 .DS_Store
