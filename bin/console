@@ -5,4 +5,16 @@ require 'bundler/setup'
 require 'rainbow_liquid'
 require 'irb'
 
+using RainbowLiquid
+
+render <<~MSG
+  -------------------------------
+  {% bright -%}
+    {%- green -%}
+      Welcome to 🌈 Rainbow Liquid 💧
+    {%- endgreen -%}
+  {%- endbright %}
+  -------------------------------
+MSG
+
 IRB.start(__FILE__)

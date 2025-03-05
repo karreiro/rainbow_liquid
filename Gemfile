@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'base64',   '~> 0.2.0'
 gem 'irb',      '~> 1.14.3'
 gem 'minitest', '~> 5.25.4'
 gem 'rake',     '~> 13.2.1'

@@ -31,6 +31,8 @@ Gem::Specification.new do |spec|
 
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
+  spec.add_dependency 'liquid', '5.8.1'
+  spec.add_dependency 'rainbow', '3.1.1'
 
   spec.metadata['rubygems_mfa_required'] = 'true'
 end
