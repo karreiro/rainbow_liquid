@@ -1,0 +1,10 @@
+# Bundler configuration and installed gems directory
+.bundle/
+vendor/bundle/
+
+# OS Generated Files
+.DS_Store
+
+# Vim swap and backup files
+*.swp
+*~
